@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: Streamlit",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "src/app.py"
+            ],
+            "jinja": true
+        }
+    ]
+}
